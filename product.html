@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="css/productstyle.css" />
+  </head>
+  <body>
+    <header>
+      <div id="topnav" class="left">
+        <img
+          src="generic-logo.jpg"
+          alt="blue circle with the text 'Your Company'"
+        />
+        <ul class="right">
+          <li>log in</li>
+          <li>basket</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="product">
+        <img src="Capture.PNG" />
+        <div>
+          <h1 class="productname">Product Name</h1>
+          <p>
+            <span class="brand">Brand</span> - <span class="type">Type</span>
+          </p>
+          <p>Price: <span class="price">X</span> DKK</p>
+          <form>
+            <label>
+              Size
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+              <button>Add to basket</button>
+            </label>
+          </form>
+          <h2>Product Information</h2>
+          <span class="description"></span>
+          <ul>
+            <li class="color">Color</li>
+            <li class="inventorynumber">Inventory number</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="js/product.js"></script>
+  </body>
+</html>
