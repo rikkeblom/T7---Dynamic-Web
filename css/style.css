@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -123,6 +124,7 @@ article {
 h1 {
   grid-column: 1/-1;
   margin: 25px 25px 10px 25px;
+  color: rgb(0, 124, 190);
 }
 
 p {

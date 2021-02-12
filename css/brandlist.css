@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
 
 h1 {
   text-align: center;
+  color: rgb(0, 124, 190);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #topnav {
@@ -47,12 +50,24 @@ h1 {
 
 #brandlist li a {
   text-decoration: none;
+  color: rgb(0, 124, 190);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: white 1px 1px;
 }
 
 #brandlist li {
   list-style: none;
-  border: red solid 3px;
+  /* border: red solid 3px; */
+  background: lightblue;
+  border-radius: 10px;
+  border: solid 3px whitesmoke;
   padding: 15px;
+  text-align: center;
+}
+
+#brandlist li:hover {
+  transform: scale(1.02, 1.02);
+  background: white;
 }
 
 #brandlist {

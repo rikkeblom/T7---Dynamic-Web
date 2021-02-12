@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -73,6 +74,16 @@ header {
     );
     padding: 10px 30px 30px 30px;
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.savings {
+  color: red;
+  margin: -5px 25px 10px 25px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 509px) {
